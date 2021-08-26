@@ -205,13 +205,16 @@ Note : To comply with VEE Pro requirements, all Arrays must be non jagged (dimen
 
 # Development
 
-If you would like to help contribute this project, clone this repo, create a virutal enviroment using Python 3 and install dependencies.
+1. If you would like to help contribute this project, clone this repo, create a virutal enviroment using Python 3 and install dependencies.
 
 ```
 pip install -r requirements.txt
 ```
 
-Run the Python server using the following command
+2. Change PYTHON_PATH in src/server.py to "python3" if Python is installed in your PATH or the Path of your python.exe file
+
+
+3. Run the Python server using the following command
 
 ```
 python3 src/server.py
